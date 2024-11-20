@@ -9,7 +9,7 @@ Crear una página web estructurada y semántica para una clínica veterinaria qu
 
 ### **1. Estructura básica**
 - Crea un archivo llamado `index.html`.
-- Utiliza etiquetas semánticas como `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, `<footer>`.
+- Utiliza etiquetas estructurales como `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, `<footer>`.
 
 ---
 
