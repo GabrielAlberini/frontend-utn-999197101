@@ -1,0 +1,21 @@
+:root {
+  --color-principal: blue;
+  --color-secundario: violet;
+  --tamaño-titulo: 40px;
+  --tamaño-texto: 20px;
+}
+
+div {
+  background-color: var(--color-secundario);
+  /* color: var(--color-principal); */
+}
+
+p {
+  color: var(--color-principal);
+  font-size: var(--tamaño-texto);
+}
+
+h1 {
+  color: var(--color-principal);
+  font-size: var(--tamaño-titulo);
+}

@@ -1,0 +1,42 @@
+/* Acá va el comentario */
+
+/* Cascading Styles Sheet */
+* {
+  margin: 0;
+}
+
+p {
+  font-size: 30px;
+  color: black;
+  font-family: Calibri;
+  background-color: lightcoral;
+}
+
+.parrafo-seleccionado {
+  color: green;
+  background-color: #ADD8E6;
+  padding: 20px;
+}
+
+.titulo-seleccionado {
+  text-align: center;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: yellowgreen;
+}
+
+body {
+  background-color: wheat;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parrafo-con-padding {
+  padding: 20px;
+}
+
+#parrafo-jupiter {
+  font-weight: 900;
+  padding: 20px;
+}
