@@ -87,3 +87,9 @@ footer ul {
   margin-top: 10px;
   list-style: none;
 }
+
+li {
+  background-color: black;
+  padding: 10px;
+  margin: 10px;
+}
