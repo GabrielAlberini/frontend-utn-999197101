@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(45deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  height: 100vh;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  color: yellowgreen;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+}
+
+p {
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "playwrite-cc-za", sans-serif;
+  /* font-weight: 600;
+  font-style: italic; */
+  color: black;
+}
+
+.btn-messages {
+  border: none;
+  padding: 10px;
+  background-color: thistle;
+  border-radius: 20px;
+  margin-top: 10px;
+  color: crimson;
+  cursor: pointer;
+  box-shadow: 10px 10px 20px -8px rgba(0, 0, 0, 0.75);
+}
+
+.btn-messages:hover {
+  opacity: 0.8;
+}
+
+.email-icon {
+  color: springgreen;
+}
