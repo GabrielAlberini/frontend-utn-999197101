@@ -17,6 +17,11 @@ body {
   padding: 20px;
   border-radius: 20px;
   box-shadow: 2px 3px 16px -6px rgba(0, 0, 0, 0.75);
+  width: 200px;
+}
+
+.container img {
+  width: 100%;
 }
 
 .container h3 {
