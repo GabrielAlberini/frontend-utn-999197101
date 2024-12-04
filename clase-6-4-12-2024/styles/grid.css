@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+div {
+  background-color: yellowgreen;
+  width: 150px;
+  padding: 20px;
+  text-align: center;
+}
+
+div img {
+  width: 100%;
+}
