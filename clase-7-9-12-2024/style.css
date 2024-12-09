@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cont-services {
+  padding: 20px;
+  background-color: yellowgreen;
+  /* Grid */
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px; */
+  /* Flex */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.service-card {
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  width: 150px;
+}
+
+.service-card h4 {
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+.service-card img {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.service-card p {
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+.service-card button {
+  padding: 10px;
+  background-color: rgb(226, 226, 226);
+  border: none;
+  color: rgb(37, 139, 255);
+  border-radius: 10px;
+}
+
+/* Grid products styles */
+
+.cont-products {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background-color: rgb(215, 197, 233);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.product-card img {
+  width: 100%;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.offer-price {
+  color: rgb(136, 136, 136);
+  text-decoration: line-through;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.price {
+  font-weight: 900;
+  font-size: 30px;
+  margin-bottom: px;
+}
+
+.discount {
+  font-size: 20px;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.quotas {
+  margin-bottom: 10px;
+}
+
+.free-shipping {
+  color: rgb(136, 136, 136);
+}
+
+.free-shipping span {
+  color: green;
+  font-weight: 900;
+}
