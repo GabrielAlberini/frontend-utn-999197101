@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.seccion-1 {
+  background-color: violet;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-width: 10px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3RwY29sOG4zaHhxYnlzZ2JhaWx5b2NjZmd3bG0zZnBwcG4wMWFlNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oEjHYbEBOsxPV6sq4/giphy.webp");
+}
+
+.seccion-2 {
+  background-color: tomato;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
