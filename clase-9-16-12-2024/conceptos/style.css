@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cont-video {
+  background-image: url("https://procolombia.thebravecontent.com/resources/procolombia1/img/pattern-video.png");
+  padding: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+video {
+  width: 80%;
+  display: block;
+  margin: auto;
+  /* transform: rotate(45deg); */
+}
+
+/* .caja {
+  background-color: yellowgreen;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1.5) rotate(94deg);
+} */
+
+/* img {
+transform: rotate(40deg) skew(50deg) translate(100px); 
+background-color: yellowgreen;
+transition: all 3s;
+}
+
+img:hover {
+  background-color: violet;
+  transform: scale(1.4);
+}
+
+button {
+  padding: 10px;
+  background-color: yellowgreen;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+*/
+
+/* animation */
+/* animation: nombre duración timing-function delay iteration-count direction; */
+
+/* @keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+img {
+  animation: girar 5s linear infinite alternate;
+} */
+
+/* SCROLL */
+
+.cont-scroll {
+  background-color: yellowgreen;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  animation: trasladar 1s infinite alternate linear;
+}
+
+@keyframes trasladar {
+  from {
+    transform: translateY(0px) rotate(-90deg);
+  }
+
+  to {
+    transform: translateY(40px) rotate(-90deg);
+  }
+}

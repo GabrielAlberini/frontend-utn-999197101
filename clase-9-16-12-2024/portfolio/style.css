@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Montserrat";
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: azure;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+header a {
+  color: black;
+  transition: all 0.3s;
+}
+
+header a:hover {
+  display: block;
+  transform: scale(1.1);
+}
+
+header i {
+  font-size: 30px;
+}
+
+/* Main */
+section {
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./background-banner.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.banner p {
+  width: 50%;
+  padding-top: 20px;
+}
+
+.proyectos {}
+
+.proyectos h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.proyectos .cont-proyectos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
+}
+
+.proyectos .proyecto {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 17px -6px rgba(0, 0, 0, 0.75);
+}
+
+.proyecto h3 {
+  margin-bottom: 10px;
+}
+
+.proyecto p {
+  margin-bottom: 10px;
+}
+
+.proyecto button {
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.proyecto button:hover {
+  transform: scale(1.1);
+}
+
+/* FORMACION HACER */
+
+/* Contacto */
+
+.contacto h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+form {
+  width: 80%;
+  background-color: aliceblue;
+  box-shadow: 2px 2px 17px -6px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  padding: 20px;
+  margin: auto;
+}
+
+form div {
+  width: 100%;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+}
+
+form input {
+  display: block;
+  border: none;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+form .correo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+form textarea {
+  padding: 10px;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+form button {
+  margin-top: 10px;
+  border: none;
+  padding: 10px;
+  background-color: #ccc;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
