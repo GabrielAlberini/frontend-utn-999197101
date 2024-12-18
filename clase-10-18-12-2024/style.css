@@ -1,0 +1,14 @@
+header {
+  background-color: red;
+}
+
+header img {
+  width: 80px;
+}
+
+.card-btn {
+  border: none;
+  padding: 10px;
+  color: white;
+  background-color: yellowgreen;
+}
