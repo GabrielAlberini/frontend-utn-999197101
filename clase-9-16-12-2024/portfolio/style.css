@@ -184,6 +184,26 @@ footer {
   color: white;
 }
 
+footer a {
+  color: white;
+}
+
+.img-wa {
+  width: 100px;
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.img-wa img {
+  width: 100%;
+}
+
+.img-wa:hover {
+  transform: scale(1.1);
+}
+
 @media (max-width: 480px) {
   header {
     display: block;
@@ -216,5 +236,11 @@ footer {
 
   form {
     width: 100%;
+  }
+
+  .img-wa {
+    width: 80px;
+    right: 0;
+    bottom: 0;
   }
 }
