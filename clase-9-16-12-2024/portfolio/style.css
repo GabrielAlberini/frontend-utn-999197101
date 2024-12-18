@@ -55,8 +55,6 @@ section {
   padding-top: 20px;
 }
 
-.proyectos {}
-
 .proyectos h2 {
   text-align: center;
   padding-bottom: 20px;
@@ -94,6 +92,31 @@ section {
 }
 
 /* FORMACION HACER */
+.formacion {
+  background-color: azure;
+}
+
+.formacion h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formaciones {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
+}
+
+.formacion-card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 17px -6px rgba(0, 0, 0, 0.75);
+  background-color: white;
+}
+
+.formacion-card img {
+  width: 100%;
+}
 
 /* Contacto */
 
@@ -159,4 +182,39 @@ footer {
   padding: 20px;
   text-align: center;
   color: white;
+}
+
+@media (max-width: 480px) {
+  header {
+    display: block;
+    text-align: center;
+  }
+
+  header nav ul {
+    display: block;
+  }
+
+  header a:hover {
+    transform: scale(1);
+  }
+
+  .banner {
+    align-items: start;
+  }
+
+  .banner p {
+    width: 100%;
+  }
+
+  .proyectos .cont-proyectos {
+    grid-template-columns: 1fr;
+  }
+
+  .formaciones {
+    grid-template-columns: 1fr;
+  }
+
+  form {
+    width: 100%;
+  }
 }
