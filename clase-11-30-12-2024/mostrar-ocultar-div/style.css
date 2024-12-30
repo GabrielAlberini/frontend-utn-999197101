@@ -1,0 +1,44 @@
+* {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  padding: 20px;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  background-color: yellowgreen;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+ul {
+  padding-top: 20px;
+  font-size: 8px;
+}
+
+ul li {
+  padding-top: 5px;
+}
+
+div {
+  border: 2px solid yellowgreen;
+  margin-top: 20px;
+  font-size: 10px;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mostrar {
+  display: block;
+}
+
+.ocultar {
+  display: none;
+}
