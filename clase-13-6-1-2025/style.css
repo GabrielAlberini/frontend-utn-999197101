@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background-color: black;
+  text-align: center;
+}
+
+h1 {
+  padding: 50px;
+  color: yellowgreen;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  border: none;
+  padding: 5px 10px;
+  background-color: yellowgreen;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(100, 133, 34);
+}
+
+#respuesta {
+  margin-top: 10px;
+  color: violet;
+}

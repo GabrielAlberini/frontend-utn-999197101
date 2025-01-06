@@ -1,5 +1,4 @@
 // Paso 1: Conectar el botón y el div
-
 let button = document.querySelector("button")
 let div = document.querySelector("div")
 
@@ -9,6 +8,7 @@ let div = document.querySelector("div")
 // Javascript manipula el DOM -> Document object model (HTML)
 
 // Paso 2: Detectar el click en el botón
+button.addEventListener("click", analizarDiv)
 
 function analizarDiv() {
   // Paso 3: Enseñarle a la pc que si el div tiene la clase "mostrar" se la elimine y le agregue "ocultar" y viceversa
@@ -23,5 +23,3 @@ function analizarDiv() {
     button.style.backgroundColor = "yellowgreen"
   }
 }
-
-button.addEventListener("click", analizarDiv) 
