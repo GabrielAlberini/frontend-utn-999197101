@@ -19,3 +19,4 @@ cart.forEach((producto, indice) => {
   // ---------------- Termina el bucle
 })
 
+console.log("Fuera del bucle")
