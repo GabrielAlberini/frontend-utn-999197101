@@ -1,0 +1,1 @@
+Crea un formulario donde el usuario ingresa la distancia a recorrer y la velocidad media del vuelo. Al hacer clic en un botón, debe calcular el tiempo que tomará el vuelo y mostrar el resultado en un <h2>.
