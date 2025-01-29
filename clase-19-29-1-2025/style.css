@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  width: 50%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  color: white;
+}
