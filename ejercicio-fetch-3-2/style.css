@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#lista-de-personajes {
+  background-color: yellowgreen;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 30px;
+}
+
+#lista-de-personajes div {
+  background-color: whitesmoke;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#lista-de-personajes div img {
+  width: 80px;
+  border-radius: 50%;
+}
