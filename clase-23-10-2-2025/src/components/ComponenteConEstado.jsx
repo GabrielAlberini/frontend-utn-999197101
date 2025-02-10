@@ -13,8 +13,7 @@ const ComponenteConEstado = () => {
   // en el primer lugar el estado (click)
   // en el segundo lugar una función que puede modificar al estado (setClick)
   const [click, setClick] = useState(0)
-
-  const mensaje = "Insuficiente stock!"
+  const [mensajeStock, setMensajeStock] = useState("Insuficiente stock!")
 
   const producto = {
     nombre: "mochila",
@@ -44,7 +43,7 @@ const ComponenteConEstado = () => {
         producto.color.map((color) => <li>{color}</li>)
       }</ul>
       {
-        click <= producto.stock ? <h2>Cantidad de {producto.nombre}: {click}</h2> : <h2>{mensaje}</h2>
+        click <= producto.stock ? <h2>Cantidad de {producto.nombre}: {click}</h2> : <h2>{mensajeStock}</h2>
       }
       <button onClick={sumar}>+</button>
       <button onClick={restar}>-</button>

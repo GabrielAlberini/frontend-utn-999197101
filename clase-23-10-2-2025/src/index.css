@@ -14,3 +14,37 @@ button {
 body {
   padding: 40px;
 }
+
+.popup {
+  border: 1px solid yellowgreen;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.cerrar {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+}
+
+.popup button {
+  background-color: yellowgreen;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.ocultar {
+  display: none;
+}
+
+.mostrar {
+  display: block;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+}
