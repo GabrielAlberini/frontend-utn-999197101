@@ -1,0 +1,16 @@
+/* Estilos globales */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+  padding: 5px;
+}
+
+body {
+  padding: 40px;
+}
