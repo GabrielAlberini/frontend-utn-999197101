@@ -1,0 +1,44 @@
+form {
+  background-color: yellowgreen;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  width: 50%;
+  margin: 40px auto;
+}
+
+input,
+label {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input {
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+input:focus {
+  outline: 4px solid rgb(166, 30, 53);
+}
+
+button {
+  background-color: brown;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: scale 0.3s;
+}
+
+button:hover {
+  scale: 1.1;
+}
