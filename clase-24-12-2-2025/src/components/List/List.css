@@ -1,0 +1,37 @@
+.cont-list {
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+.item-list {
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.item-list:hover {
+  animation: move 3s infinite linear;
+  cursor: pointer;
+}
+
+@keyframes move {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.cont-list img {
+  width: 30%;
+  display: block;
+  margin: auto;
+}
