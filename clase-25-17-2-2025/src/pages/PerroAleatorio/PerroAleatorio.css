@@ -1,0 +1,12 @@
+button {
+  display: block;
+  margin: auto;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+.cont-img-perro-aleatorio img {
+  display: block;
+  margin: auto;
+  max-width: 400px;
+}

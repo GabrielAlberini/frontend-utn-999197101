@@ -1,0 +1,47 @@
+header {
+  background-color: yellowgreen;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  width: 120px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header ul li {
+  background-color: tomato;
+  padding: 10px;
+  color: black;
+  font-weight: 700;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: scale 0.2s;
+}
+
+header ul li:hover {
+  scale: 1.05;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  padding: 20px;
+  min-height: 100vh;
+}
+
+footer {
+  background-color: violet;
+  padding: 20px;
+  text-align: center;
+}
