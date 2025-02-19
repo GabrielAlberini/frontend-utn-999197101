@@ -1,0 +1,1 @@
+SPA -> single page application
